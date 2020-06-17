@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-sans-serif;
+}
+
+header {
+  background-color: black;
+  height: 75px;
+  /* padding: 20px; */
+  color: white;
+}
+
+header h1 {
+  float: left;
+  font-size: 30px;
+  padding: 25px;
+  display: inline-block;
+}
+
+header a {
+  font-size: 18px;
+  display: inline-block;
+  padding: 28.5px;
+  float: right;
+  background-color: olivedrab;
+}
+
+nav {
+  background-color: darkblue;
+  color: white;
+  /* height: 50px; */
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  /* add hover features to li's */
+}
+
+nav li {
+  display: inline;
+  padding: 100px;
+}
+
+#hero {
+  /* background: url('image link') no-repeat */
+  /* color: white */
+  /* h1: bigger font */
+  /* p: smaller font, black background */
+}
+
+section {
+  /* background-color: light grey? */
+  /* color: black */
+  /* articles: ? */
+}
+
+footer {
+  /* color: white; */
+  /* background-color: black; */
+  /* padding */
+  /* height */
+}
