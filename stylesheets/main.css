@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  background-color: black;
+  background-color: #202020;
   height: 75px;
   /* padding: 20px; */
   color: white;
@@ -12,6 +12,7 @@ header {
 header h1 {
   float: left;
   font-size: 30px;
+  font-weight: bold;
   padding: 25px;
   display: inline-block;
 }
@@ -41,10 +42,28 @@ nav li {
 }
 
 #hero {
-  /* background: url('image link') no-repeat */
+
+  /* image display changes based on window size */
   /* color: white */
   /* h1: bigger font */
   /* p: smaller font, black background */
+}
+
+#hero h2 {
+  background: url('../images/1.jpg');
+  background-size: cover;
+  height: 475px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+#hero p {
+  background: #202020;
+  color: white;
 }
 
 section {
