@@ -41,19 +41,10 @@ nav li {
   padding: 100px;
 }
 
-#hero {
-
-  /* image display changes based on window size */
-  /* color: white */
-  /* h1: bigger font */
-  /* p: smaller font, black background */
-}
-
 #hero h2 {
   background: url('../images/1.jpg');
   background-size: cover;
   height: 475px;
-  background-size: cover;
   background-position: center;
   color: white;
   font-size: 30px;
@@ -65,12 +56,29 @@ nav li {
   background: #202020;
   color: white;
   padding: 25px 35px;
+  font-size: 15px;
 }
 
-section {
-  /* background-color: light grey? */
-  /* color: black */
-  /* articles: ? */
+#landmarks {
+  background-color: lightgrey;
+  color: black;
+}
+
+#landmarks article {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  margin: auto;
+  width: 30%;
+  display: inline-block;
+  /* inline-block setting not working when included in declaration block for "landmrk-list" */
+}
+
+.lndmrk-list img{
+  height: 200px;
+  width: 300px;
+  /* crop images to mirror mockup */
 }
 
 footer {
