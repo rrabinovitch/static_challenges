@@ -69,6 +69,7 @@ nav li {
   font-weight: bold;
   padding-top: 40px;
   padding-bottom: 15px;
+  padding-left: 35px;
   margin: auto;
   width: 30%;
   display: inline-block;
@@ -84,6 +85,6 @@ nav li {
 footer {
   color: white;
   background-color: #202020;
-  padding: 20px;
+  padding: 20px 35px;
   /* height */
 }
