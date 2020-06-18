@@ -63,22 +63,21 @@ nav li {
   color: black;
 }
 
-#landmarks article {
+.lndmrk-list {
+  display: inline-block;
+  width: 30%;
   font-size: 25px;
   font-weight: bold;
+  vertical-align: top;
   padding-top: 40px;
   padding-bottom: 15px;
   padding-left: 35px;
-  margin: auto;
-  width: 30%;
-  display: inline-block;
-  /* inline-block setting not working when included in declaration block for "landmrk-list" */
 }
 
 .lndmrk-list img{
   height: 200px;
-  width: 300px;
-  /* crop images to mirror mockup */
+  width: 400px;
+  object-fit: cover;
 }
 
 footer {
